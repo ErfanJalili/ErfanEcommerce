@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\sc\Common\Common.csproj" />
     <ProjectReference Include="..\Product.Data\Product.Infrastructure.csproj" />
     <ProjectReference Include="..\Product.Entities\Product.Entities.csproj" />
     <ProjectReference Include="..\Product.Services\Product.Services.csproj" />

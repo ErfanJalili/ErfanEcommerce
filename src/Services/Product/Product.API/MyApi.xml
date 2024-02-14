@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product.API</name>
+    </assembly>
+    <members>
+        <member name="T:Product.API.Controllers.v1.OldPostsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Product.API.Controllers.v1.OldPostsController.#ctor(Product.Infrastructure.Contracts.IRepository{Product.Entities.Posts.Post},AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="T:Product.API.Controllers.v1.PostsController">
+            <summary>
+            کنترلر پست ها
+            </summary>
+        </member>
+        <member name="M:Product.API.Controllers.v1.PostsController.#ctor(Product.Infrastructure.Contracts.IRepository{Product.Entities.Posts.Post},AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="P:Product.API.Controllers.v1.AddressDto.Country">
+            <summary>
+            3-letter ISO country code
+            </summary>
+            <example>Iran</example>
+        </member>
+        <member name="P:Product.API.Controllers.v1.AddressDto.City">
+            <summary>
+            Name of city
+            </summary>
+            <example>Seattle</example>
+        </member>
+        <member name="M:Product.API.Controllers.v1.UsersController.Token(Product.API.Models.TokenRequest,System.Threading.CancellationToken)">
+            <summary>
+            This method generate JWT Token
+            </summary>
+            <param name="tokenRequest">The information of token request</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
